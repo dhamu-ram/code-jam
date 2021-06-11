@@ -1,4 +1,4 @@
-package com.dhamuram.java.codejam;
+package com.dhamuram.java.codejam.javaeight;
 
 import java.util.ArrayList;
 import java.util.List;

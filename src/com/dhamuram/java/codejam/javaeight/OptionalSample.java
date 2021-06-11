@@ -1,12 +1,17 @@
-package com.dhamuram.java.codejam;
+package com.dhamuram.java.codejam.javaeight;
 
 import java.util.Optional;
 
 public class OptionalSample {
     public static void main(String[] args) {
+
         Optional<String> string = Optional.empty();
 
         if (string == null) {
+            System.out.println("Null !!!");
+        }
+
+        if (!string.isPresent()) {
             System.out.println("Empty !!!");
         }
 
@@ -16,5 +21,8 @@ public class OptionalSample {
             System.out.println("Full : " + string);
         }
 
+        if (string.isPresent()) {
+            System.out.println("Present !!!");
+        }
     }
 }
