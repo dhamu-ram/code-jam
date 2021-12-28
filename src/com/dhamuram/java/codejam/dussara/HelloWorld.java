@@ -1,4 +1,4 @@
-package com.dhamuram.java.codejam.coursera;
+package com.dhamuram.java.codejam.dussara;
 
 /******************************************************************************
  *  Compilation:  javac HelloWorld.java

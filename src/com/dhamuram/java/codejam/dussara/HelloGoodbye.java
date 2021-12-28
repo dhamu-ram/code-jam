@@ -1,6 +1,4 @@
-package com.dhamuram.java.codejam.coursera;
-
-import edu.princeton.cs.algs4.StdOut;
+package com.dhamuram.java.codejam.dussara;
 
 public class HelloGoodbye {
     public static void main(String[] args) {
