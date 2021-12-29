@@ -1,4 +1,4 @@
-package com.dhamuram.java.codejam.mecode;
+package com.dhamuram.java.codejam.macode;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -28,7 +28,6 @@ public class TwoSum {
                 twoSum.put(diff, i);
             }
         }
-
         return new int[]{0, 0};
     }
 }
