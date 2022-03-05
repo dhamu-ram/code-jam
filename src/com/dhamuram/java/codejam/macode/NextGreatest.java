@@ -9,7 +9,7 @@ public class NextGreatest {
         int[] array2 = {1, 3, 4, 2};
         int[] ints = nextGreatest(array1, array2);
         for (int a : ints) {
-            System.out.println(a);
+            System.out.print(a + "," );
         }
     }
 
