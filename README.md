@@ -1,2 +1,3 @@
-# java-code-jam
-code snippets in java
+# code-jam
+
+code snippets that I have worked for learning and fun.
