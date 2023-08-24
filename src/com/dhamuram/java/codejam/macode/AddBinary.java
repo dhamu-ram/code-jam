@@ -9,33 +9,48 @@ public class AddBinary {
 
         String solution = addBinary.sum("11", "1");
     }
-
     public String sum(String a, String b) {
-
 
         if (a.isEmpty() || b.isEmpty()) {
             return null;
         }
 
-        StringBuilder sb = new StringBuilder();
+        StringBuilder stringBuilder = new StringBuilder();
         int i = a.length() - 1;
         int j = b.length() - 1;
+        int carry = 0;
 
-        while(i <= 0 || j <= 0) {
+        while(i >= 0 || j >= 0) {
+
+            int sum = carry;
 
             if(i > 0) {
-                a.charAt(i);
+                sum += a.charAt(i) - '0';
             }
 
             if (j > 0) {
-                b.charAt(j);
+                sum += b.charAt(j) - '0';
             }
 
+           if (sum == 0 || sum == 1) {
+               stringBuilder.append("0");
+               carry = 0;
+           } else if (sum  == 2) {
+               stringBuilder.append("0");
+               carry = 1;
+           } else {
+               stringBuilder.append("1");
+               carry = 1;
+           }
 
             i--;
             j--;
         }
 
-        return sb.toString();
+        if (carry == 1) {
+            stringBuilder.append("1");
+        }
+
+        return stringBuilder.reverse().toString();
     }
 }
