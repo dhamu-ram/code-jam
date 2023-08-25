@@ -7,7 +7,12 @@ public class AddBinary {
     public static void main(String[] args) {
         AddBinary  addBinary = new AddBinary();
 
-        String solution = addBinary.sum("11", "1");
+        String x = "011011";
+        String y = "1010111";
+
+        String solution = addBinary.sum(x, y);
+
+        System.out.println("Solution : " + solution);
     }
     public String sum(String a, String b) {
 
@@ -15,10 +20,11 @@ public class AddBinary {
             return null;
         }
 
-        StringBuilder stringBuilder = new StringBuilder();
         int i = a.length() - 1;
         int j = b.length() - 1;
         int carry = 0;
+
+        StringBuilder stringBuilder = new StringBuilder();
 
         while(i >= 0 || j >= 0) {
 
