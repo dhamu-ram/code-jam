@@ -9,6 +9,6 @@ public class Joiner {
         joiner.add("data");
         joiner.add("codeJam");
 
-        System.out.println(joiner.toString());
+        System.out.println(joiner);
     }
 }

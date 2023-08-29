@@ -10,7 +10,7 @@ public class ConcurrentHash {
         map.put("two", 2);
         map.put("tree", 30);
 
-        System.out.println("Map : " + map.toString());
+        System.out.println("Map : " + map);
 
     }
 }

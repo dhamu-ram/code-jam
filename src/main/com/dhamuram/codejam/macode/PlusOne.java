@@ -1,7 +1,5 @@
 package com.dhamuram.leetcode;
 
-import java.util.Arrays;
-
 public class PlusOne {
     public static void main(String[] args) {
         int[] digits = new int[10];

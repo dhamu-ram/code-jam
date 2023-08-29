@@ -3,9 +3,9 @@ package com.dhamuram.java.codejam.gforg;
 // { Driver Code Starts
 //Initial Template for Java
 
-import java.util.*;
-import java.lang.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 class pair {
     long first, second;
@@ -24,15 +24,15 @@ class MinMax {
                 Integer.parseInt(br.readLine().trim()); // Inputting the testcases
         while (t-- > 0) {
             long n = Long.parseLong(br.readLine().trim());
-            long a[] = new long[(int) (n)];
+            long[] a = new long[(int) (n)];
             // long getAnswer[] = new long[(int)(n)];
-            String inputLine[] = br.readLine().trim().split(" ");
+            String[] inputLine = br.readLine().trim().split(" ");
             for (int i = 0; i < n; i++) {
                 a[i] = Long.parseLong(inputLine[i]);
             }
 
             Compute obj = new Compute();
-            pair product = obj.getMinMax(a, n);
+            pair product = Compute.getMinMax(a, n);
             System.out.println(product.first + " " + product.second);
 
         }
@@ -42,7 +42,7 @@ class MinMax {
 // } Driver Code Ends
 
 class Compute {
-    static pair getMinMax(long a[], long n) {
+    static pair getMinMax(long[] a, long n) {
         //Write your code here
         Long min = Long.MAX_VALUE;
         Long max = Long.MIN_VALUE;

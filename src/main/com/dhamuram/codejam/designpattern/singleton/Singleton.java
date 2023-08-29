@@ -1,4 +1,4 @@
-package com.dhamuram.java.codejam.designpattern;
+package com.dhamuram.codejam.designpattern.singleton;
 
 public class Singleton {
 

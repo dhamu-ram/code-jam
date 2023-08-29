@@ -1,7 +1,6 @@
 package com.dhamuram.java.codejam.java.eight;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 public class Compare {
@@ -10,6 +9,6 @@ public class Compare {
 
         //Collections.sort(integers, (i, j) -> i.compareTo(j));
 
-        System.out.println( integers.toString());
+        System.out.println(integers);
     }
 }

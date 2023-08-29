@@ -33,10 +33,6 @@ public class IsPalindrome {
             x = (x / 10);
         }
 
-        if (x == newNum) {
-            return true;
-        } else {
-            return false;
-        }
+        return x == newNum;
     }
 }

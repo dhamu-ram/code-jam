@@ -8,7 +8,7 @@ interface FuncInterface {
 
 public class FunctionalInterfaceSample {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         FuncInterface Total = (a, b) ->  a * b;
 

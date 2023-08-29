@@ -1,9 +1,5 @@
 package com.dhamuram.java.codejam.macode;
 
-import java.lang.invoke.SwitchPoint;
-import java.util.HashMap;
-import java.util.Map;
-
 public class IntToRoman {
 
     public static void main(String[] args) {
