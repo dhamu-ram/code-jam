@@ -1,4 +1,4 @@
-package com.dhamuram.java.codejam.dussara;
+package com.dhamuram.codejam.dussara;
 
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;

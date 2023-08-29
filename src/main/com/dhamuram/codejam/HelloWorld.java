@@ -1,4 +1,4 @@
-package com.dhamuram.java.codejam;
+package com.dhamuram.codejam;
 
 public class HelloWorld {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.dhamuram.java.codejam.gforg;
+package com.dhamuram.codejam.gforg;
 
 // { Driver Code Starts
 //Initial Template for Java

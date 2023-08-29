@@ -1,4 +1,4 @@
-package com.dhamuram.java.codejam.general;
+package com.dhamuram.codejam.general;
 
 public class ImmutableClass {
 

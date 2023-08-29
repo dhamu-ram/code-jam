@@ -1,4 +1,4 @@
-package com.dhamuram.java.codejam.java.eight;
+package com.dhamuram.codejam.java.eight;
 
 
 public class MethodReference {

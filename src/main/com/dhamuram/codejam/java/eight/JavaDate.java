@@ -1,4 +1,4 @@
-package com.dhamuram.java.codejam.java.eight;
+package com.dhamuram.codejam.java.eight;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

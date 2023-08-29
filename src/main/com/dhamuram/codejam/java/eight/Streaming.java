@@ -1,4 +1,4 @@
-package com.dhamuram.java.codejam.java.eight;
+package com.dhamuram.codejam.java.eight;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,6 +18,6 @@ public class Streaming {
         strings.add(8);
 
         // Stream, filter and foreach
-        strings.stream().filter(i -> (i % 2 == 0)).forEach(i -> System.out.println(i));
+        // strings.stream().filter(i -> (i % 2 == 0)).forEach(System.out::println);
     }
 }
