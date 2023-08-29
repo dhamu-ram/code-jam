@@ -1,7 +1,5 @@
 package com.dhamuram.leetcode;
 
-import java.util.Arrays;
-
 public class AddBinary {
 
     public static void main(String[] args) {
