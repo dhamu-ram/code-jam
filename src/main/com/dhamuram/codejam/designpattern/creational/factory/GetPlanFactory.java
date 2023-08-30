@@ -1,10 +1,12 @@
 package com.dhamuram.codejam.designpattern.creational.factory;
 
+import java.io.IOException;
+
 public class GetPlanFactory {
 
-    public Plan getPlan(String planType) {
+    public Plan getPlan(String planType) throws IOException {
         if (planType.isBlank()) {
-            return null;
+            throw new IOException();
         }
 
         if (planType.equalsIgnoreCase("domestic")) {
@@ -14,7 +16,7 @@ public class GetPlanFactory {
         } else if (planType.equalsIgnoreCase("industrial")) {
             return new InstitutionalPlan();
         } else {
-            return null;
+            throw new IOException();
         }
     }
 }

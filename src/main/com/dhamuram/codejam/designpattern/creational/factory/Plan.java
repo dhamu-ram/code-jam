@@ -7,6 +7,6 @@ public abstract class Plan {
     abstract double getRate();
 
     public void calculateBill(int units) {
-        System.out.println("Bill Amount : " + (units * rate));
+        System.out.println("Unit Rate : " + getRate() + ", Bill Amount : " + (units * getRate()));
     }
 }
