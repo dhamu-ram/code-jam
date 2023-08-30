@@ -4,7 +4,7 @@ public class EducationLoan extends Loan {
 
 
     @Override
-    double getInterestRate() {
-        return 0;
+    double getInterestRate(double rate) {
+        return rate;
     }
 }
