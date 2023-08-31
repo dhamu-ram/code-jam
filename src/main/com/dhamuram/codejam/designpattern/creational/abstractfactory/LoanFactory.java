@@ -9,7 +9,20 @@ public class LoanFactory extends AbstractFactory {
     }
 
     @Override
-    public Loan getLoan(String loanType) {
-        return null;
+    public Loan getLoan(String loanType) throws IOException {
+
+        if (loanType.isEmpty()) {
+            throw new IOException();
+        }
+
+        if (loanType.equalsIgnoreCase("home")) {
+            return new HomeLoan();
+        } else if (loanType.equalsIgnoreCase("education")) {
+            return new EducationLoan();
+        } else if (loanType.equalsIgnoreCase("business")) {
+            return new BusinessLoan();
+        } else {
+            throw new IOException();
+        }
     }
 }

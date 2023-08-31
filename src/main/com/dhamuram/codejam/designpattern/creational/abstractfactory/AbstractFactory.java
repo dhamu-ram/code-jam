@@ -6,5 +6,5 @@ public abstract class AbstractFactory {
 
     public abstract Bank getBank(String bankName) throws IOException;
 
-    public abstract Loan getLoan(String loanType);
+    public abstract Loan getLoan(String loanType) throws IOException;
 }

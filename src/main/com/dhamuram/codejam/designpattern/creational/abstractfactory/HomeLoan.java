@@ -4,7 +4,7 @@ public class HomeLoan extends Loan {
 
 
     @Override
-    double getInterestRate(double rate) {
-        return rate;
+    void setInterestRate(double rate) {
+        this.rate = rate;
     }
 }
