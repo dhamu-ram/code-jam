@@ -4,11 +4,11 @@ public class Samsung extends Company {
 
     @Override
     public String Pack() {
-        return null;
+        return "Samsung CD";
     }
 
     @Override
     public int price() {
-        return 0;
+        return 20;
     }
 }

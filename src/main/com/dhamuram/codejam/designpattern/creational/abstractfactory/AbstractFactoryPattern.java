@@ -2,7 +2,7 @@ package com.dhamuram.codejam.designpattern.creational.abstractfactory;
 
 import java.io.IOException;
 
-public class AbstractFactoryPatternImplementation {
+public class AbstractFactoryPattern {
     public static void main(String[] args) {
         try {
 

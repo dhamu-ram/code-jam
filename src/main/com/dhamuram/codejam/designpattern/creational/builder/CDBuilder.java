@@ -3,10 +3,14 @@ package com.dhamuram.codejam.designpattern.creational.builder;
 public class CDBuilder {
 
     public CDType buildSonyCD() {
-        return new CDType();
+        CDType cdType = new CDType();
+        cdType.addCDS(new Sony());
+        return cdType;
     }
 
     public CDType buildSamsungCD() {
-        return new CDType();
+        CDType cdType = new CDType();
+        cdType.addCDS(new Samsung());
+        return cdType;
     }
 }

@@ -1,14 +1,14 @@
 package com.dhamuram.codejam.designpattern.creational.singleton;
 
-public class Singleton {
+public class SingletonPattern {
 
-    private static volatile Singleton instance;
+    private static volatile SingletonPattern instance;
 
-    public static Singleton getInstance() {
+    public static SingletonPattern getInstance() {
         if (instance == null) {
-            synchronized (Singleton.class) {
+            synchronized (SingletonPattern.class) {
                 if (instance == null) {
-                    instance = new Singleton();
+                    instance = new SingletonPattern();
                 }
             }
         }
@@ -21,7 +21,7 @@ public class Singleton {
 
     public static void main(String[] args) {
 
-        Singleton singleton = Singleton.getInstance();
+        SingletonPattern singleton = SingletonPattern.getInstance();
 
         singleton.printValue();
     }

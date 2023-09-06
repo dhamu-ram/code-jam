@@ -2,7 +2,7 @@ package com.dhamuram.codejam.designpattern.creational.factory;
 
 import java.io.IOException;
 
-public class GenerateBill {
+public class FactoryPattern {
 
     public static void main(String[] args) {
 

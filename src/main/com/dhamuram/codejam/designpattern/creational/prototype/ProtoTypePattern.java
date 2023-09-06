@@ -1,6 +1,6 @@
 package com.dhamuram.codejam.designpattern.creational.prototype;
 
-public class ProtoTypeImplementation {
+public class ProtoTypePattern {
     public static void main(String[] args) {
 
         // Initialize Employee Record 1
