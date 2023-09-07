@@ -9,7 +9,7 @@ public class AdapterPattern {
         creditCardOne.showCreditCard();
         creditCardOne.showBankDetails();
 
-        CreditCard creditCardTwo = new BankCustomer("BofA", "Elten", 20000001L);
+        CreditCard creditCardTwo = new BankCustomer("BofA", "Elton", 20000001L);
 
         creditCardTwo.showCreditCard();
         creditCardTwo.showBankDetails();
