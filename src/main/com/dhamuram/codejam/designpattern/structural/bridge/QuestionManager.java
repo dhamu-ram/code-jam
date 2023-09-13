@@ -5,8 +5,8 @@ public class QuestionManager {
     public String catalog;
     protected Question question;
 
-    public QuestionManager() {
-
+    public QuestionManager(String catalog) {
+        this.catalog = catalog;
     }
 
     public void next() {
@@ -30,6 +30,7 @@ public class QuestionManager {
     }
 
     public void displayAll() {
+        System.out.println("Catalog : " + catalog);
         question.displayAllQuestion();
     }
 }
