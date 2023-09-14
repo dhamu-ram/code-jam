@@ -31,7 +31,6 @@ public class KidsQuestions implements Question {
         questions.add("What do you want to be when you grow up?");
         questions.add("Tell me about your favorite movie or TV show.");
         questions.add("If you could only keep one book which one would you keep? Why?");
-
     }
 
     @Override

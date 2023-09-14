@@ -2,8 +2,9 @@ package com.dhamuram.codejam.designpattern.structural.bridge;
 
 public class QuestionManager {
 
-    public String catalog;
     protected Question question;
+
+    public String catalog;
 
     public QuestionManager(String catalog) {
         this.catalog = catalog;
