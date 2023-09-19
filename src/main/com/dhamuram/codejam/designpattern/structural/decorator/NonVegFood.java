@@ -7,7 +7,7 @@ public class NonVegFood extends FoodDecorator {
     }
 
     public String prepareFood() {
-        return super.prepareFood() + "Non Vegetarian Food";
+        return super.prepareFood() + " Non Vegetarian Food";
     }
 
     public double foodPrice() {
