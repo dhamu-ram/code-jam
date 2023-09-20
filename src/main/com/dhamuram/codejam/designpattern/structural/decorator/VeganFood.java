@@ -1,15 +1,16 @@
 package com.dhamuram.codejam.designpattern.structural.decorator;
 
-public class VeganFood implements Food {
+public class VeganFood extends FoodDecorator {
 
-    double foodPrice = 50.0;
+    public VeganFood(Food latestFood) {
+        super(latestFood);
+    }
 
-    @Override
     public String prepareFood() {
-        return "Veg Food";
+        return super.prepareFood() + "Vegan Food";
     }
 
     public double foodPrice() {
-        return foodPrice;
+        return super.foodPrice();
     }
 }

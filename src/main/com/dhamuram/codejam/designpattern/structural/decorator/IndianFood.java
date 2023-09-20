@@ -7,7 +7,7 @@ public class IndianFood extends FoodDecorator {
     }
 
     public String prepareFood() {
-        return super.prepareFood() + " Indian Food";
+        return super.prepareFood() + "Indian Food";
     }
 
     public double foodPrice() {
