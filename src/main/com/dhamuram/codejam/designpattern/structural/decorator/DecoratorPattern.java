@@ -5,7 +5,6 @@ public class DecoratorPattern {
     public static void main(String[] args) {
 
         Food justFood = new JustFood();
-
         System.out.println(justFood.prepareFood());
         System.out.println(justFood.foodPrice());
 
