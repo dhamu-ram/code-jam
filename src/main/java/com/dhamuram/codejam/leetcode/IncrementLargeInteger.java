@@ -30,4 +30,13 @@ public class IncrementLargeInteger {
         result[0] = 1;
         return result;
     }
+
+    public static void main(String[] args) {
+
+        int[] digits = {1, 2, 3};
+
+        digits = IncrementLargeInteger.plusOne(digits);
+
+        System.out.println(digits[1]);
+    }
 }
