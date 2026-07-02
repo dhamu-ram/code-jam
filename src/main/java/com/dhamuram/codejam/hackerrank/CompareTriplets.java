@@ -6,7 +6,7 @@ import java.util.stream.*;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
-class Result {
+class CompareTripletsResult {
 
     /*
      * Complete the 'compareTriplets' function below.
@@ -55,7 +55,7 @@ public class CompareTriplets {
                 .map(Integer::parseInt)
                 .collect(toList());
 
-        List<Integer> result = Result.compareTriplets(a, b);
+        List<Integer> result = CompareTripletsResult.compareTriplets(a, b);
 
         bufferedWriter.write(
                 result.stream()
