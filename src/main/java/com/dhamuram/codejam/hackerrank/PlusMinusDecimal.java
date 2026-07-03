@@ -44,7 +44,7 @@ class PlusMinusDecimalResult {
     }
 }
 
-public class PlusMinusDecimalResult {
+public class PlusMinusDecimal {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
