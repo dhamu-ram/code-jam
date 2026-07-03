@@ -20,10 +20,10 @@ class StaircaseResult {
 
     public static void staircase(int n) {
         // Write your code here
-        int width = n;
+        //int width = n;
 
         for (int i = 1; i <= n; i++) {
-            System.out.println(String.format("%" + width + "s", "#".repeat(i)));
+            System.out.println(String.format("%" + n + "s", "#".repeat(i)));
         }
 
     }
