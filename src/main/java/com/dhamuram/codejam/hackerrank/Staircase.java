@@ -1,0 +1,43 @@
+package com.dhamuram.codejam.hackerrank;
+
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.function.*;
+import java.util.regex.*;
+import java.util.stream.*;
+
+class StaircaseResult {
+
+    /*
+     * Complete the 'staircase' function below.
+     *
+     * The function accepts INTEGER n as parameter.
+     */
+
+    public static void staircase(int n) {
+        // Write your code here
+        int width = n;
+
+        for (int i = 1; i <= n; i++) {
+            System.out.println(String.format("%" + width + "s", "#".repeat(i)));
+        }
+
+    }
+
+}
+
+public class Staircase {
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+
+        int n = Integer.parseInt(bufferedReader.readLine().trim());
+
+        StaircaseResult.staircase(n);
+
+        bufferedReader.close();
+    }
+}
